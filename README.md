@@ -183,6 +183,24 @@ make clean
 make all
 ```
 
+### Error: "ModuleNotFoundError" (Python)
+```bash
+pip install pandas matplotlib numpy
+# 1. Instalar dependencias
+sudo apt update && sudo apt install -y python3-pandas python3-matplotlib python3-numpy
+
+# 2. Verificar instalación
+python3 << EOF
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+print("✓ pandas version:", pd.__version__)
+print("✓ matplotlib version:", plt.matplotlib.__version__)
+print("✓ numpy version:", np.__version__)
+print("\n¡Todo listo para el análisis!")
+EOF
+```
+
 ### Error: "Permission denied"
 ```bash
 chmod +x ejecutar_todas_pruebas.sh
