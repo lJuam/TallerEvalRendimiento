@@ -53,6 +53,7 @@ Entrega
 ```bash
 make clean
 make all
+make setup (necesario para ejecutar pruebas)
 ```
 
 ### Verificar compilación
