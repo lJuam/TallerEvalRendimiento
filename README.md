@@ -1,3 +1,7 @@
+[![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![OpenMP](https://img.shields.io/badge/OpenMP-Parallel-blue)](https://www.openmp.org/)
+
 # Taller de Evaluación de Rendimiento
 
 **Autores:** Juan David Garzon Ballen, Juan Pablo Sanchez
